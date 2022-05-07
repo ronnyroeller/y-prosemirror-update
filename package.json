@@ -1,0 +1,27 @@
+{
+  "type": "module",
+  "name": "y-prosemirror-update",
+  "version": "0.0.1",
+  "description": "Repo to reproduce issue in creating yjs upates from Prosemirror transactions",
+  "main": "index.js",
+  "scripts": {
+    "demo": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronnyroeller/y-prosemirror-update.git"
+  },
+  "author": "Ronny Roeller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ronnyroeller/y-prosemirror-update/issues"
+  },
+  "homepage": "https://github.com/ronnyroeller/y-prosemirror-update#readme",
+  "dependencies": {
+    "prosemirror": "^0.11.1",
+    "prosemirror-schema-basic": "^1.1.2",
+    "y-prosemirror": "^1.0.19",
+    "yjs": "^13.5.35"
+  }
+}
